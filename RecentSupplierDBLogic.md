@@ -1,5 +1,6 @@
+Цель:
+<br>Таблица RecentSupplier хранит информацию о всех "предыдущих" Поставщиках товара (SKU) на склад (Warehouse)
 
-<br>Таблица RecentSupplier
 <br>Поля:
 <ul><li>SKU {Product_ID}</li>
 <li>Warehouse {Warehouse_ID}</li>
@@ -9,6 +10,7 @@
 <li>ItemDescription</li>
 <li>SupplierDimension</li>
 <li>SupplierUnitMultiplier</li></ul>
+
 Тригер:
 <ol><li>Импорт из *.csv (плановый/неплановый)</li>
 <li>Выгрузка *.xls </li>
