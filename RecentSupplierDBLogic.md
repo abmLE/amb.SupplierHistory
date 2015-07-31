@@ -1,4 +1,4 @@
-RecentSupplierDBLogic
+
 <br>Таблица RecentSupplier
 <br>Поля:
 <ul><li>SKU {Product_ID}</li>
