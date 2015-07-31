@@ -8,11 +8,11 @@
 <br>а также <i>(например)</i><br>
 <li>ItemDescription</li>
 <li>SupplierDimension</li>
-<li>SupplierUnitMultiplier/li></ul>
+<li>SupplierUnitMultiplier</li></ul>
 Тригер:
 <ol><li>Импорт из *.csv (плановый/неплановый)</li>
 <li>Выгрузка *.xls </li>
-<li>Редактирование Потавщика через Интерфейс</li></ol>
+<li>Редактирование Поставщика через Интерфейс</li></ol>
 Логика:
 <ol><li>Сравнить Поставщиков c данными из таблицы RecentSupplier. Искать среди активных (флаг Main=1) по уникальному ключу SKU & Warehouse. <i>(на Main=0 поставщиков можно пока "забить")</i>.
 <br>Если все ровно - Конец</li>
