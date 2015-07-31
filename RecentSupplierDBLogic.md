@@ -5,7 +5,7 @@
 <ul><li>SKU {Product_ID}</li>
 <li>Warehouse {Warehouse_ID}</li>
 <li>SupplierCode {Supplier_ID}</li>
-<li>Main {0,1}</li>
+<li>Main {0,1} - флаг, Поставщик активный/неактивный</li> 
 <br>а также <i>(например)</i><br>
 <li>ItemDescription</li>
 <li>SupplierDimension</li>
