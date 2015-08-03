@@ -32,6 +32,9 @@
 ##Логика:
 
 ![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
 <br>Искать среди активных (флаг Main=1) по уникальному ключу SKU & Warehouse. _(это ускорит поиск благодаря снижению количества проверок)_.
