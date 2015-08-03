@@ -16,11 +16,11 @@ To be:
 
 ![Mockup To-be](http://cs628027.vk.me/v628027613/ef86/afuMUyn5bfs.jpg)
 
-|Field, #| Type |
-|---|---|
-|1||
-|2||
-|3||
+|Field, #| Type |avalability|value, en|value, ua|value, ru|
+|---|---|---|---|---|---|
+|1|lable| r/o| SKU|
+|2|lable| r/o|
+|3| |
 |4||
 |5||
 |6||
