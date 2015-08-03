@@ -5,8 +5,8 @@
 Для улучшения usability, отображать в __SKU Card__(SKU data) информацию о последних Поставщиках.
 
 ##Дизайн диалогового окна:
-[Screen As-is](https://www.dropbox.com/s/e00emj5rtmbyatc/SuppliersAsIs.PNG?dl=0)
-[Mockup To-be](https://www.dropbox.com/s/6f4vn3x198uewjo/SuppliersFB_v0.1.PNG?dl=0)
+- [Screen As-is](https://photos-4.dropbox.com/t/2/AADlk2ntM2M6k49E2s1zYbBZznLa1J_eCR8gIQmY9_ZfBQ/12/450548831/png/32x32/1/_/1/2/SuppliersAsIs.PNG/EKau9dEDGCQgBygH/kFie2qLuLNve01eTDs5moc4E6f3SBjvGO02b3tC53w8?size=1024x768&size_mode=2)
+- [Mockup To-be](https://www.dropbox.com/s/6f4vn3x198uewjo/SuppliersFB_v0.1.PNG?dl=0)
 
 ##Решение на уровне БД:
 Сохранять в отдельной Таблице _(например, RecentSupplier)_ "историю" Поставщиков.
