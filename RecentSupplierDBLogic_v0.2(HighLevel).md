@@ -1,34 +1,30 @@
-__Цель:__
+#FR-001#
 
-Хранить в отдельной Таблице _(например, RecentSupplier)_ "историю" Поставщиков товара (SKU) на склад (Warehouse)
+##Цель:##
+Для улучшения usability, отображать в __SKU Card__(SKU data) информацию о последних Поставщиках.
+###Дизайн As-is:###
+[Screen As-is](https://www.dropbox.com/s/e00emj5rtmbyatc/SuppliersAsIs.PNG?dl=0)
+###Дизайн To-be:###
+[Mockup To-be]()
 
-__Поля таблицы:__ 
+##Решение:##
+Сохранять в отдельной Таблице _(например, RecentSupplier)_ "историю" Поставщиков для SKU+Warehouse.
 
-- SKU {Product_id}
-- Warehouse {Warehouse_id}
-- SupplierCode {Supplier_id}
-- Main {0,1} - флаг, Поставщик активный/неактивный - чтоб отслеживать изменения
-- Date_beg - дата, когда Поставщик стал Активным 
+###Поля таблицы:###
+SKU {Product_id}, Warehouse {Warehouse_id}, SupplierCode {Supplier_id}, .. ItemDescription, SupplierDimension, SupplierUnitMultiplier.
+Возможно, также:
+- Main {true,false} - флаг, Поставщик активный/неактивный - чтоб отслеживать изменения
+- Date_end - дата, когда Поставщик перестал быть Активным 
 
-а также, например:
-
-- ItemDescription
-- SupplierDimension
-- SupplierUnitMultiplier
-
-__Предположение:__
-
-Изначально Таблица должна содержать информацию о Текущих активных поставщиках.
-_т.к. при если Поставщик изменен вручную - предыдущее значение не сохранится_
-
-
-__Триггер:__
-
+##Триггер:##
 1. Импорт из *.csv (плановый/внеплановый)
 2. Выгрузка *.xls
 3. Редактирование Поставщика через Интерфейс
 
-__Логика:__
+###Н.Я._1:### 
+В момент выгрузки (xls) данные о предыдущем Поставщике могут быть утеряны.
+
+##Логика:##
 
 [Flowchart](https://www.dropbox.com/s/z0nb24g13u1rkfl/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA.PNG?dl=0)
 
