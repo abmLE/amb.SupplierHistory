@@ -5,8 +5,8 @@
 Для улучшения usability, отображать в __SKU Card__(SKU data) информацию о последних Поставщиках.
 
 ##Дизайн диалогового окна:
-- [Screen As-is](https://www.dropbox.com/s/e00emj5rtmbyatc/SuppliersAsIs.PNG?dl=0)
-- [Mockup To-be](https://www.dropbox.com/s/6f4vn3x198uewjo/SuppliersFB_v0.1.PNG?dl=0)
+- [Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
+- [Mockup To-be](http://cs628027.vk.me/v628027613/ef69/rXFP8GEjMH8.jpg)
 
 ##Решение на уровне БД:
 Сохранять в отдельной Таблице _(например, RecentSupplier)_ "историю" Поставщиков.
@@ -31,7 +31,7 @@
 
 ##Логика:
 
-![Flowchart](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
+![Flowchart](http://cs628027.vk.me/v628027613/ef78/zdonxufKPmQ.jpg)
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
 <br>Искать среди активных (флаг Main=1) по уникальному ключу SKU & Warehouse. _(это ускорит поиск благодаря снижению количества проверок)_.
