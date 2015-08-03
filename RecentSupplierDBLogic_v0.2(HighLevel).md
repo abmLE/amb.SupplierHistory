@@ -12,16 +12,24 @@ As is:
 ![Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
 To be:
 ![Mockup To-be](http://cs628027.vk.me/v628027613/ef86/afuMUyn5bfs.jpg)
-| Field,# | Type | en|ua|rU|
-|---:      |---   |---|---|---|
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
+| Field,# | Type |Value| ua|rU|
+|---:      |---   |---|---|---|---|
+|1 | lable| "SKU"     | Код товару| Код товара|
+|2 | lable| "Supplier"| Постачальник| Поставщик| 
+|3 | lable| =SupplierCode   | - | - | 
+|4 | dropdown| =SupplierName (list) | - | - | 
+|5 | button| "Add"| Додати| Добавить| 
+|6 | button| "Remove"| Видалити| | 
+|7 | lable| | | | 
+|8 | radio button| | | |
+|9 | lable| | | | 
+|10 | lable| | | | 
+|11 | lable| | | | 
+|12 | dropdown| | | | 
+|13 | spinedit| | | | 
+|14 | lable| | "Од. постачальника = Stock-M Од.вим. * Множник од. постачальника"| | 
+|15 | line| | | | 
+|16 | button| | Зберегти| | 
 
 
 ##Решение на уровне БД:
