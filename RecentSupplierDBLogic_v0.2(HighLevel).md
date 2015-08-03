@@ -5,8 +5,8 @@
 Для улучшения usability, отображать в __SKU Card__(SKU data) информацию о последних поставщиках.
 
 ##Дизайн диалогового окна:
-- [Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
-- [Mockup To-be](http://cs628027.vk.me/v628027613/ef69/rXFP8GEjMH8.jpg)
+![Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
+![Mockup To-be](http://cs628027.vk.me/v628027613/ef69/rXFP8GEjMH8.jpg)
 
 ##Решение на уровне БД:
 Сохранять в отдельной Таблице _(далее по тексту, ~~RecentSupplier~~ RSTable)_ "историю" поставщиков.
