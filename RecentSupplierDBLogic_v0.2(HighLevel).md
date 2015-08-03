@@ -31,7 +31,7 @@
 
 ##Логика:
 
-![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
+![alt text](https://photos-4.dropbox.com/t/2/AABIXcYPYrKt05ri3m-ZuGC0VxRNVzrwkEi0g-egVQ8iIQ/12/450548831/png/32x32/1/_/1/2/RecentSupplierLogicv1.PNG/EKau9dEDGCQgBygH/Isk9SLg1sATHrfFScrbHdDLK5clCEjM8IvsvMlcVYjE?size=1024x768&size_mode=2)
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
 <br>Искать среди активных (флаг Main=1) по уникальному ключу SKU & Warehouse. _(это ускорит поиск благодаря снижению количества проверок)_.
