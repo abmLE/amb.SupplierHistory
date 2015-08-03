@@ -31,9 +31,9 @@
 
 ##Логика:
 
-![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
+![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG)
 Inline-style: 
-![alt text](https://pp.vk.me/c543107/v543107273/af23/Xo0vxmJKhIw.jpg)
+![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
 
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
