@@ -5,7 +5,7 @@
 Для улучшения usability, отображать в __SKU Card__(SKU data) информацию о последних Поставщиках.
 
 ##Дизайн диалогового окна:
-- [Screen As-is](https://photos-4.dropbox.com/t/2/AADlk2ntM2M6k49E2s1zYbBZznLa1J_eCR8gIQmY9_ZfBQ/12/450548831/png/32x32/1/_/1/2/SuppliersAsIs.PNG/EKau9dEDGCQgBygH/kFie2qLuLNve01eTDs5moc4E6f3SBjvGO02b3tC53w8?size=1024x768&size_mode=2)
+- [Screen As-is](https://www.dropbox.com/s/e00emj5rtmbyatc/SuppliersAsIs.PNG?dl=0)
 - [Mockup To-be](https://www.dropbox.com/s/6f4vn3x198uewjo/SuppliersFB_v0.1.PNG?dl=0)
 
 ##Решение на уровне БД:
@@ -31,7 +31,7 @@
 
 ##Логика:
 
-![alt text](https://photos-4.dropbox.com/t/2/AABIXcYPYrKt05ri3m-ZuGC0VxRNVzrwkEi0g-egVQ8iIQ/12/450548831/png/32x32/1/_/1/2/RecentSupplierLogicv1.PNG/EKau9dEDGCQgBygH/Isk9SLg1sATHrfFScrbHdDLK5clCEjM8IvsvMlcVYjE?size=1024x768&size_mode=2 "Logo Title Text 1")
+![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
 <br>Искать среди активных (флаг Main=1) по уникальному ключу SKU & Warehouse. _(это ускорит поиск благодаря снижению количества проверок)_.
