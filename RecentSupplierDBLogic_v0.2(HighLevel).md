@@ -33,7 +33,7 @@
 
 ![alt text](https://www.dropbox.com/s/dgjishj6de3nggn/RecentSupplierLogicv1.PNG?dl=0)
 Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://pp.vk.me/c543107/v543107273/af23/Xo0vxmJKhIw.jpg)
 
 
 1. Сравнить "новых" Поставщиков c данными из Таблицы. 
