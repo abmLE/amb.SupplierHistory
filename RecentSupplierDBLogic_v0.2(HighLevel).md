@@ -18,9 +18,9 @@ To be:
 
 |Field, #| Type |avalability|value, en|value, ua|value, ru|
 |---|---|---|---|---|---|
-|1|lable| r/o| SKU|
-|2|lable| r/o|
-|3| |
+|1|lable| r/o| "SKU"| Код товару | Код товара|
+|2|lable| r/o| "Supplier" |Постачальник |Поставщик|
+|3|lable| r/o| =SKU.Code |
 |4||
 |5||
 |6||
