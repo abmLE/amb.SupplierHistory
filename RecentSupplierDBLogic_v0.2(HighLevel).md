@@ -9,21 +9,24 @@
 
 ##Дизайн диалогового окна:
 As is:
+
 ![Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
+
 To be:
+
 ![Mockup To-be](http://cs628027.vk.me/v628027613/ef86/afuMUyn5bfs.jpg)
-| Field,# | Type | en|ua|rU|
-|---:      |---   |---|---|---|
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
-|1 | lable| | | | 
 
-
+|Field, #| Type |
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
+|||
 ##Решение на уровне БД:
 Сохранять в отдельной Таблице _(далее по тексту, ~~RecentSupplier~~ RSTable)_ "историю" поставщиков.
 
