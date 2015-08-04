@@ -10,7 +10,7 @@
 ##Дизайн диалогового окна:
 As is:
 
-![Screen As-is](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
+[Screen As-is, link](http://cs628027.vk.me/v628027613/ef7f/Je7DPEOZ5wI.jpg)
 
 To be:
 
