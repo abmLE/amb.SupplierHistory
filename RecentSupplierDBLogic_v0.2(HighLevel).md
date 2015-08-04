@@ -14,7 +14,7 @@ As is:
 
 To be:
 
-![Mockup To-be](http://cs628027.vk.me/v628027613/ef86/afuMUyn5bfs.jpg)
+![Mockup To-be](http://cs628027.vk.me/v628027613/f0fb/He0BBnkL9sU.jpg)
 
 ### Описание полей
 |Field, #| Type |avalability|value, en|value, ua|value, ru|
