@@ -17,24 +17,24 @@ To be:
 ![Mockup To-be](http://cs628027.vk.me/v628027613/f0fb/He0BBnkL9sU.jpg)
 
 ### Описание полей
-|Field, #| Type |avalability|value, en|value, ua|value, ru|
-|---|---|---|---|---|---|
-|1|lable| r/o| "SKU"| Код товару | Код товара|
-|2|lable| r/o| "Supplier" |Постачальник |Поставщик|
-|3|lable| r/o| =SKU.Code |
-|4|dropdown| |
-|5|button|r/o| 
-|6|button|r/o| 
-|7|table|r/o| 
-|8|radio button|r/o| 
-|9|lable|r/o| 
-|10|lable|r/o| 
-|11|lable|r/o|
-|12|dropdown|r/o|
-|13|spiner|r/o|
-|14|lable|r/o|
-|15|line|r/o|
-|16|button|r/o|
+|Field, #|value, en|value, ua|value, ru|
+|---|---|---|---|
+|1|"SKU"| Код товару| Код товара|
+|2|"Supplier" |Постачальник| Поставщик|
+|3|=SKU.Code  |
+|4|=Supplier.Name |
+|5|"Add" | 
+|6|"Remove"|
+|7|| 
+|8| | 
+|9| | 
+|10|| 
+|11||
+|12||
+|13||
+|14||
+|15||
+|16||
 
 ##Решение на уровне БД:
 Сохранять в отдельной Таблице _(далее по тексту, ~~RecentSupplier~~ RSTable)_ "историю" поставщиков.
